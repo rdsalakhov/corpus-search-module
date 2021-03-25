@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CorpusSearchModule.Core.Models.ErrorViewModel" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.IntermediateQuery" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Models\IntermediateQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.QueryToken" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAQACAAAAA=</HashCode>
+      <FileName>Models\IntermediateQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.QueryResult" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAACAAAAAAAQAAAAAAAAAAAAAQAAACAA=</HashCode>
+      <FileName>Models\QueryResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.Exceptions.EmptyQueryException" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Exceptions\EmptyQueryException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.Exceptions.InvalidQuerySyntaxException" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Exceptions\InvalidQuerySyntaxException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Models.Exceptions.UnknownDriverException" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Exceptions\UnknownDriverException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.DriverManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAQAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DriverManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.QueryParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAQACAAACQAAAAAxQAAAAAAIAQAAIAAAAAAA=</HashCode>
+      <FileName>Services\QueryParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.Models.Query" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\Models\AbstractQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.Models.ExactQuery" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\Models\ExactQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.Models.PairQuery" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAQAAAAAAAAIAAAAAAAAAAQAAACAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\Models\PairQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.QueryTranslator" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAACCAAAIAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\QueryTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.TextCorpusClient" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAgACAAAgQAASAAAACAAEAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\TextCorpusClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.TextCorpusSystemFacade" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAABAAAAAIAAAABIAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\TextCorpusSystemFacade.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.TextCorpusSystemValidator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAgACAAAAAAAQAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\TextCorpusSystemValidator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CorpusSearchModule.Core.Services.DriverInterfaces.IDriverFacade" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DriverInterfaces\IDriverFacade.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CorpusSearchModule.Core.Services.DriverInterfaces.IDriverValidator" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Services\DriverInterfaces\IDriverValidator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CorpusSearchModule.Core.Services.IDriverManager" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IDriverManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CorpusSearchModule.Core.Services.IQueryParser" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IQueryParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CorpusSearchModule.Core.Services.TextCorpusSystemDriver.Models.PairQueryType" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\TextCorpusSystemDriver\Models\PairQuery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

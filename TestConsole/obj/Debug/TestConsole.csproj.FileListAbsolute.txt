@@ -1,0 +1,12 @@
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\CorpusSearchModule.Core.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\CorpusSearchModule.Core.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\obj\Debug\TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\obj\Debug\TestConsole.csproj.CopyComplete
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\TestConsole\obj\Debug\TestConsole.pdb

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "E5j88W/tn2Wd2bjpMNlFKyJE0kWNDcP/nRICAUmTqReyRtQCf6/p/pexVcojm0f4GNSL9dlU0shDR7o9Pv8kGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Roman\\source\\repos\\CourseProject\\CorpusSearchModule\\CorpusSearchModule.Core\\CorpusSearchModule.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

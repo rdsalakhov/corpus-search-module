@@ -1,0 +1,9 @@
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\netstandard2.0\CorpusSearchModule.Core.deps.json
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\netstandard2.0\CorpusSearchModule.Core.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.AssemblyInfoInputs.cache
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.AssemblyInfo.cs
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.csprojAssemblyReference.cache
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\netstandard2.0\CorpusSearchModule.Core.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\netstandard2.0\CorpusSearchModule.Core.csproj.CoreCompileInputs.cache

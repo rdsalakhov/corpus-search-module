@@ -1,0 +1,9 @@
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\CorpusSearchModule.Core.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\CorpusSearchModule.Core.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\CorpusSearchModule.Core.csproj.CoreCompileInputs.cache
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\CorpusSearchModule.Core.csproj.CopyComplete
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\CorpusSearchModule.Core.dll
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\CorpusSearchModule.Core.pdb
+C:\Users\Roman\source\repos\CourseProject\CorpusSearchModule\CorpusSearchModule.Core\obj\Debug\CorpusSearchModule.Core.csprojAssemblyReference.cache

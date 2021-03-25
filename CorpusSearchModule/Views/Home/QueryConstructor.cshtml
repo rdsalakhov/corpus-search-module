@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Query Constructor";
+    //var list = new List<string>();
+    //list.Add("TextCorpusDriver");
+    //ViewBag.Drivers = new SelectList(list);
+}
+<script type="text/javascript">
+    function appendQuery() {
+        var query = $("#query").val();
+        var grammParameters = $("#grammParameters").val();
+        var semParameters = $("#semParameters").val();
+        var minRange = $("#minRange").val();
+        var maxRange = $("#maxRange").val();
+        var token = ""
+        if (query == "") {
+            token += "FIND"
+        } else {
+            token += `\nWITHRANGE FROM ${minRange} TO ${maxRange}`
+        }
+        if (grammParameters != "") {
+            token += `\nGRAMM (${grammParameters})`
+        }
+        if (semParameters != "") {
+            token += `\nSEMANTIC (${semParameters})`
+        }
+        $("#query").val(query + token)
+    }
+    function clearQuery() {
+        $("#query").val("")
+    }
+
+</script>
+<h2>Конструктор запросов</h2>
+@using (Ajax.BeginForm("ExecuteQuery", new AjaxOptions { UpdateTargetId = "results" }))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            <p class="control-label col-md-2">Грамматические признаки</p>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="grammParameters" name="grammParameters" type="text" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <p class="control-label col-md-2">Семантические признаки</p>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="semParameters" name="semParameters" type="text" value="">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-2">
+                <p class="control-label">Расстояние от</p>
+            </div>
+            <div class="col-md-1">
+                <input class="form-control text-box single-line" id="minRange" max="100" min="1" name="minRange" type="number" value="1">
+            </div>
+            <div class="col-md-1">
+                <p class="control-label" style="text-align :center">до</p>
+            </div>
+            <div class="col-md-1">
+                <input class="form-control text-box single-line" id="maxRange" max="100" min="1" name="maxRange" type="number" value="10">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-2">
+                <input value="Добавить в запрос" class="btn btn-default" readonly onclick="appendQuery()" />
+            </div>
+            <div class="col-md-1">
+                <input value="Очистить" class="btn btn-default" readonly onclick="clearQuery()" />
+            </div>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <p class="control-label">Запрос:</p>
+            </div>
+            <div class="col-lg-3">
+                <p class="control-label">Выберите подключение:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <textarea name="query" id="query" class="form-control" rows="10" placeholder="Введите запрос" style="min-width: 100%"></textarea>
+                <input type="submit" value="Поиск" class="btn btn-default" />
+            </div>
+            <div class="col-lg-3">
+                @Html.DropDownList("driverName", (SelectList)ViewBag.Drivers, htmlAttributes: new { style = "width: 100%", @class = "form-control" })
+            </div>
+        </div>
+}
+<div class="form-group" id="results"></div>
+@Scripts.Render("~/scripts/jquery-3.4.1.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+
+

@@ -1,0 +1,50 @@
+﻿@model string
+@{
+    ViewBag.Title = "Home Page";
+    //var list = new List<string>();
+    //list.Add("TextCorpusDriver");
+    //ViewBag.Drivers = new SelectList(list);
+}
+<script type="text/javascript">
+    function appendQuery() {
+        var text = $("#text").val();
+        if (text == "") {
+            $("#text").val() = "find";
+        } else {
+            $("#text").val(text + "token");
+        }
+    }
+    function saveQuery() {
+        var query = $('#query').val();
+        $.post("@Url.Action("SaveQuery", "Home")", { query: query});           
+    }
+</script>
+<h2>Сorpus Search Module</h2>
+@using (Ajax.BeginForm("ExecuteQuery", new AjaxOptions { UpdateTargetId = "results" }))
+{
+    <div class="row">
+        <div class="col-lg-8">
+            <p class="control-label">Введите запрос:</p>
+        </div>
+        <div class="col-lg-3">
+            <p class="control-label">Выберите подключение:</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            <textarea id="query" name="query" class="form-control" rows="25" placeholder="Введите запрос" style="min-width: 100%">@Model</textarea>
+            <input type="submit" value="Поиск" class="btn btn-default" />
+            <input value="Сохранить запрос" class="btn btn-default" onclick="saveQuery()"/>
+            
+        </div>
+        <div class="col-lg-3">
+            @Html.DropDownList("driverName", (SelectList)ViewBag.Drivers, htmlAttributes: new { style = "width: 100%", @class = "form-control" })
+        </div>        
+    </div>
+}
+<div class="form-group" id="results"></div>
+
+@Scripts.Render("~/scripts/jquery-3.4.1.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
